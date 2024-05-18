@@ -1,0 +1,104 @@
+{
+    "data": {
+      "data": {
+        "noiseReductionState": {
+          "enabled": false,
+          "value": 0
+        },
+        "volumeStabilizerState": {
+          "enabled": true,
+          "value": 0.2
+        },
+        "noiseGateState": {
+          "enabled": true,
+          "value": -50 
+        },
+        "automaticNoiseGateState": {
+          "enabled": true,
+          "value": 0
+        },
+        "parametricEQ": {
+          "enabled": true,
+          "filter1": {
+            "enabled": true,
+            "qFactor": 0.7071,
+            "frequency": 100, 
+            "gain": -6, 
+            "type": "peakingEQ"
+          },
+          "filter2": {
+            "enabled": true,
+            "qFactor": 0.7071,
+            "frequency": 200, 
+            "gain": -3, 
+            "type": "peakingEQ"
+          },
+          "filter3": {
+            "enabled": true,
+            "qFactor": 0.7071,
+            "frequency": 400, 
+            "gain": -1, 
+            "type": "peakingEQ"
+          },
+          "filter4": {
+            "enabled": true,
+            "qFactor": 0.7071,
+            "frequency": 800, 
+            "gain": 0, 
+            "type": "peakingEQ"
+          },
+          "filter5": {
+            "enabled": true,
+            "qFactor": 0.7071,
+            "frequency": 1600, 
+            "gain": -1, 
+            "type": "peakingEQ"
+          },
+          "filter6": {
+            "enabled": true,
+            "qFactor": 0.7071,
+            "frequency": 3200, 
+            "gain": -2, 
+            "type": "peakingEQ"
+          },
+          "filter7": {
+            "enabled": true,
+            "qFactor": 0.7071,
+            "frequency": 6400,
+            "gain": -3,
+            "type": "peakingEQ"
+          },
+          "filter8": {
+            "enabled": true,
+            "qFactor": 0.7071,
+            "frequency": 12800,
+            "gain": -6,
+            "type": "peakingEQ"
+          },
+          "filter9": {
+            "enabled": true,
+            "qFactor": 0.7071,
+            "frequency": 25600,
+            "gain": -12,
+            "type": "peakingEQ"
+          }
+        },
+        "impactNoiseReductionState": {
+          "enabled": false,
+          "value": 0
+        },
+        "noiseCancelingState": {
+          "enabled": true,
+          "value": 0.8984000000000001
+        },
+        "acousticEchoCancelingState": false,
+        "globalEnableState": true
+      },
+      "schemaVersion": 4,
+      "virtualAudioDevice": "chatCapture"
+    },
+    "metadata": {
+      "name": "Broadcast Raspy (Reduced Bass)",
+      "author": "Roseless#0000"
+    }
+  }
